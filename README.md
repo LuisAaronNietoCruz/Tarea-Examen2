@@ -23,6 +23,14 @@ Test for 2 interfaces from 192.168.0.200 from 1Mb, 10Mb, 20Mb,... up to 100Mb (i
 
 132.247.186.67
 
+Plot size vs time for up or download.
+
+1) Exchange keys between the web server and the storage server.
+2) Copy the file to your account's public directory on the web server.
+3) Use wget and scp for downloading and uploading data.
+4) Upload everything to github.
+5) 1Mb = 1024x1024 bytes
+ 
 ## Requirements
 For the realization of this program it was necessary to import the libraries (numpy, math, matplotlib).
 
