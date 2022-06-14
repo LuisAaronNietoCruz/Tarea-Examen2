@@ -32,7 +32,10 @@ Plot size vs time for up or download.
 5) 1Mb = 1024x1024 bytes
  
 ## Requirements
-For the realization of this program it was necessary to import the libraries (numpy, math, matplotlib).
+
+For the realization of this project we import subprocess, sys, re
+
+We define a function called pingmb and then import it along with matplotlib for plot rendering
 
 ## Result 
 ![Alt text](https://github.com/LuisAaronNietoCruz/Exam2_Dynamic-Systems/blob/main/Fractal-Square.png 'Fractal-Square')
