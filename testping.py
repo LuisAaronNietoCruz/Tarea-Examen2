@@ -1,4 +1,4 @@
-from ping import ping
+from pingmb import pingmb
 import sys
 import matplotlib.pyplot as plt
 
@@ -6,7 +6,7 @@ _,MB_Begin,MB_End,MB_Step,IP_SRC=[0]+[int(x) for x in sys.argv[1:-1]]+[sys.argv[
 
 
 x=[1]
-r=[ping(IP_SRC,1)]
+r=[pingmb(IP_SRC,1)]
 for i in range(MB_Begin,MB_End+1,MB_Step):
     r.append(pingmb(IP_SRC,i))
     x.append(i)
